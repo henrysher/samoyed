@@ -1,0 +1,69 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    aws-sdk (1.6.6)
+      httparty (~> 0.7)
+      json (~> 1.4)
+      nokogiri (>= 1.4.4)
+      uuidtools (~> 2.1)
+    backports (2.6.4)
+    builder (3.1.3)
+    ffi (1.1.5)
+    highline (1.6.15)
+    httparty (0.9.0)
+      multi_json (~> 1.0)
+      multi_xml
+    inifile (2.0.2)
+    jruby-pageant (1.1.1)
+    json (1.7.5)
+    multi_json (1.3.6)
+    multi_xml (0.5.1)
+    net-sftp (2.0.5)
+      net-ssh (>= 2.0.9)
+    net-ssh (2.6.0)
+      jruby-pageant (>= 1.1.1)
+    nokogiri (1.5.5)
+    open4 (1.3.0)
+    psych (1.3.4)
+    rake (0.9.2.2)
+    rbvmomi (1.6.0)
+      builder
+      nokogiri (>= 1.4.1)
+      trollop
+    rvc (1.6.0)
+      backports (>= 1.18.2)
+      highline (>= 1.6.1)
+      rbvmomi (>= 1.5.0)
+      terminal-table (>= 1.4.2)
+      trollop (>= 1.16.2)
+      zip (>= 2.0.2)
+    rvm (1.11.3.5)
+    terminal-table (1.4.5)
+    trollop (2.0)
+    uuidtools (2.1.3)
+    zip (2.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aws-sdk
+  backports
+  builder
+  bundler
+  ffi
+  highline
+  inifile
+  json
+  net-sftp
+  net-ssh
+  nokogiri
+  open4
+  psych
+  rake
+  rbvmomi
+  rvc
+  rvm
+  terminal-table
+  trollop
+  zip
